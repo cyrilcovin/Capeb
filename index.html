@@ -1,0 +1,120 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link id="couleur" rel="stylesheet" type="text/css" href="css/style-blanc.min.css">
+    <link rel="stylesheet" href="css/style-flaticon.min.css">
+</head>
+<script>
+    function changerStyle(couleur){
+        document.getElementById('couleur').setAttribute('href','css/style-'+couleur+'.min.css');
+    }
+</script>
+<body>
+<select class="selection" onchange="changerStyle(this.value)">
+    <option>blanc</option>
+    <option>jaune</option>
+    <option>vert</option>
+    <option>bleu</option>
+    <option>orange</option>
+</select>
+<div class="container marginTop">
+    <div class="row">
+        <div class="col-xs-12 col-md-6 padd text-center">
+            <div id="logo" class="paddTop">
+                <a href="#" class="lienLogo" title="Logo Capeb"></a>
+            </div>
+            <div class="paddTop ">
+                <p>Pour votre iPhone ou Android, la CAPEB est plus proche de vous à présent:actualités, formations, boites à outils, notifications, etc.</p>
+            </div>
+            <div class="row paddTop ">
+                <div class="col-xs-12 col-md-6 espaceLien">
+                    <a href="https://play.google.com/store/apps/details?id=com.websenso.capeb71"><img src="img/badge_android.png"></a>
+                </div>
+                <div class="col-xs-12 col-md-6 espaceLien">
+                    <a href="https://itunes.apple.com/fr/app/capeb-71/id971652081?mt=8"><img src="img/badge_apple.png" alt="boutton vers apple"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-6 text-center">
+            <img src="img/capeb_app_screen.png" alt="boutton vers apple">
+        </div>
+    </div>
+</div>
+<div class="envoiMail">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">
+                <div class="paddTop paddBot">
+                    <p>Besoin d'une présentation rapide par email? Avec plaisir, saisissez votre email ET pas est vous recevrez immédiatement un très joli email.</p>
+                </div>
+                <form>
+                    <div class="input-group paddBot">
+                        <input type="text" class="form-control inputnoir" placeholder="Email" required=""/>
+                        <span class="input-group-btn"><button type="submit" class="butnoir btn btn-default">Recevoir la présentation</button></span>
+                    </div><!-- /input-group -->
+                </form>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    </div>
+</div>
+<div id="pied1" class="piedDePage">
+    <div class="container">
+            <div class="row paddTop paddBot">
+                <div class="col-xs-12 col-md-3">
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="col-xs-12 col-md-2 paddTop">
+                        <a title="vers facebook" href="#"><span class="spane img-circle fi flaticon-facebook-social-symbol"></span></a>
+                    </div>
+                    <div class="col-xs-12 col-md-1 paddTop">
+                        <p id="grand">/</p>
+                    </div>
+                    <div class="col-xs-12 col-md-2 paddTop">
+                        <a title="vers twiter" href="#"><span class="spane img-circle fi flaticon-twitter-logo-silhouette "></span></a>
+                    </div>
+                    <div class="col-xs-12 col-md-1 paddTop">
+                        <p id="grand">/</p>
+                    </div>
+                    <div class="col-xs-12 col-md-2 paddTop">
+                        <a title="vers mail" href="#"><span class="spane img-circle fi flaticon-email-envelope "></span></a>
+                    </div>
+                    <div class="col-xs-12 col-md-1 paddTop">
+                        <p id="grand">/</p>
+                    </div>
+                    <div class="col-xs-12 col-md-2 paddTop">
+                        <a title="vers rss" href="#"><span class="spane img-circle fi flaticon-rss"></span></a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                </div>
+            </div>
+    </div>
+</div>
+<div id="pied2" class="piedDePage">
+    <div class="container text-center">
+        <div class="row paddTop paddBot">
+            <div class="col-xs-12 col-md-3 paddTop paddBot">
+                <a class="padd" title="vers facebook" href="#"><span class="spane img-circle fi flaticon-facebook-social-symbol"></span></a>
+                <a class="padd" title="vers twiter" href="#"><span class="spane img-circle fi flaticon-twitter-logo-silhouette "></span></a>
+            </div>
+            <div class="col-xs-12 col-md-6 paddTop">
+                <a class="padd" title="vers mail" href="#"><span class="spane img-circle fi flaticon-email-envelope "></span></a>
+                <a class="padd" title="vers rss" href="#"><span class="spane img-circle fi flaticon-rss"></span></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="piedfinal" class="paddTop paddBot">
+    <p>
+        MIW © 2016
+    </p>
+    <p>
+        Envie d'un stage ? <a href="#">www.WebSens.com</a>;-)
+    </p>
+    <p>
+        Il fallait que vous le glissiez quelques part ...
+    </p>
+</div>
+</body>
+</html>
