@@ -21,17 +21,27 @@
   #pied1 {
     display: none; }
   #pied2 {
-    display: block; } }
+    display: block; }
+  .padd {
+    padding: 0px; }
+  .taille {
+    width: 300px;
+    height: auto; } }
 
 @media (min-width: 992px) {
   #pied2 {
-    display: none; } }
+    display: none; }
+  .padd {
+    padding: 30px; } }
 
 .paddIcon {
   padding: 30px; }
 
 .selection {
   color: black; }
+
+.pasdepadd {
+  margin: 0px; }
 
 body {
   margin-top: 100px;
@@ -48,9 +58,6 @@ body {
 
 .marginTop {
   margin-top: 200px; }
-
-.padd {
-  padding: 30px; }
 
 .paddTop {
   padding-top: 20px; }
